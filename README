@@ -1,3 +1,3 @@
 1. github_as_mvn_repo_example 是用github做为maven中央仓库的例子
 2. upload_to_center_mvn_repo 是利用搭建的内部真正maven中央仓库的例子
-3. 文档可以参看:搭建内部maven仓库
+3. 文档可以参看:maven_gradle_document.pdf
