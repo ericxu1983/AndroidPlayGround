@@ -52,8 +52,14 @@ public class MainActivity extends Activity {
 //                    e.printStackTrace();
 //                }
 
+                test_settingPage();
+
             }
         });
+    }
+
+    private void test_settingPage() {
+        startActivity(new Intent(this, SettingActivity.class));
     }
 
     private void test_cropLargePicture() throws IOException {
@@ -71,8 +77,8 @@ public class MainActivity extends Activity {
         intent.putExtra("return-data", "false");
         intent.putExtra("outputFormat", Bitmap.CompressFormat.JPEG.toString());
 
-        intent.putExtra("outputX",100);
-        intent.putExtra("outputY",100);
+        intent.putExtra("outputX", 100);
+        intent.putExtra("outputY", 100);
         intent.putExtra("noFaceDetection", true);
 
 
@@ -107,7 +113,7 @@ public class MainActivity extends Activity {
 
         File tempImageFile;
         try {
-             tempImageFile = createTempImageFile();
+            tempImageFile = createTempImageFile();
 
         } catch (IOException e) {
             e.printStackTrace();
