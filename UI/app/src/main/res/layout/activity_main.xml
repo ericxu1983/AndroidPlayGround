@@ -22,4 +22,14 @@
         android:layout_toEndOf="@+id/imageView"
         android:layout_toRightOf="@+id/imageView"
         android:text="New Button" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="New Button"
+        android:id="@+id/button4"
+        android:background="@drawable/shape_test"
+
+        android:layout_above="@id/button3"
+        android:layout_marginLeft="20dp"/>
 </RelativeLayout>

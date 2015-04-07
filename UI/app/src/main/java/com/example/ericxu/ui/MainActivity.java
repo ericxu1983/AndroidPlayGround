@@ -46,11 +46,11 @@ public class MainActivity extends Activity {
 
 //              testCamera1();
 //                test_TakePhotoWithCustomPath();
-                try {
-                    test_cropLargePicture();
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
+//                try {
+//                    test_cropLargePicture();
+//                } catch (IOException e) {
+//                    e.printStackTrace();
+//                }
 
             }
         });
