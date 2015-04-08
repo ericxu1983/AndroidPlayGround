@@ -58,6 +58,10 @@ public class MainActivity extends Activity {
         });
     }
 
+    private void test_Tab() {
+        startActivity(new Intent(this, TabActivity.class));
+    }
+
     private void test_settingPage() {
         startActivity(new Intent(this, SettingActivity.class));
     }
