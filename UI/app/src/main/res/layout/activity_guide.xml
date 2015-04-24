@@ -54,75 +54,82 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/guide_page1_logo_afu"
             android:id="@+id/afu"
             android:layout_centerVertical="true"
             android:layout_centerHorizontal="true" />
+        <!--android:src="@drawable/guide_page1_logo_afu"-->
+
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/guide_page1_logo_luojisiwei"
             android:id="@+id/luojisiwei"
             android:layout_above="@id/afu"
             android:layout_centerHorizontal="true"
             android:layout_marginBottom="30dp"/>
+        <!--android:src="@drawable/guide_page1_logo_luojisiwei"-->
+
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/guide_page1_logo_durex"
             android:layout_below="@id/afu"
             android:layout_toRightOf="@id/afu"
             android:layout_toEndOf="@id/afu"
             android:layout_marginTop="25dp"
             android:layout_marginLeft="13dp"
             android:id="@+id/gangben" />
+        <!--android:src="@drawable/guide_page1_logo_durex"-->
+
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/guide_page1_logo_yunifang"
             android:id="@+id/xiangtuxiangqin"
             android:layout_below="@+id/nanrenwa"
             android:layout_marginTop="47dp"
             android:layout_marginRight="34dp"
             android:layout_toLeftOf="@+id/gangben"
             android:layout_toStartOf="@+id/gangben" />
+        <!--android:src="@drawable/guide_page1_logo_yunifang"-->
+
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/guide_page1_logo_nanrenwa"
             android:id="@+id/nanrenwa"
             android:layout_alignBottom="@+id/huangyaoshi"
             android:layout_marginRight="31dp"
             android:layout_marginBottom="3dp"
             android:layout_toLeftOf="@id/afu"
             android:layout_toStartOf="@id/afu"/>
+        <!--android:src="@drawable/guide_page1_logo_nanrenwa"-->
+
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/guide_page1_logo_aikangguobin"
             android:id="@+id/aikang"
             android:layout_toLeftOf="@id/afu"
             android:layout_toStartOf="@id/afu"
             android:layout_marginBottom="36dp"
             android:layout_marginRight="32dp"
             android:layout_above="@+id/nanrenwa" />
+        <!--android:src="@drawable/guide_page1_logo_aikangguobin"-->
+
 
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/guide_page1_logo_wis"
             android:id="@+id/wis"
             android:layout_above="@id/aikang"
             android:layout_marginBottom="32dp"
             android:layout_marginRight="8dp"
             android:layout_toLeftOf="@id/afu"
             android:layout_toStartOf="@id/afu"/>
+        <!--android:src="@drawable/guide_page1_logo_wis"-->
+
 
 
         <ImageView
@@ -130,22 +137,24 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="13dp"
             android:layout_marginLeft="35dp"
-            android:src="@drawable/guide_page1_logo_huangyaoshi"
             android:layout_above="@id/gangben"
             android:layout_toRightOf="@id/afu"
             android:layout_toEndOf="@id/afu"
             android:id="@+id/huangyaoshi" />
+        <!--android:src="@drawable/guide_page1_logo_huangyaoshi"-->
+
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="50dp"
             android:layout_marginLeft="8dp"
-            android:src="@drawable/guide_page1_logo_weflower"
             android:layout_above="@id/huangyaoshi"
             android:layout_toRightOf="@id/afu"
             android:layout_toEndOf="@id/afu"
             android:id="@+id/weihuadian" />
+        <!--android:src="@drawable/guide_page1_logo_weflower"-->
+
 
         <ProgressBar
             android:layout_width="wrap_content"
