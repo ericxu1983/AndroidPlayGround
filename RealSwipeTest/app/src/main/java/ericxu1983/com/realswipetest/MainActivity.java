@@ -41,12 +41,13 @@ public class MainActivity extends ActionBarActivity {
                 return true;
             }
 
+
             @Override
             public boolean onFling(MotionEvent e1, MotionEvent e2, float velocityX, float velocityY) {
                 float distanceX = e2.getX() - e1.getX();
                 float distanceY = e2.getY() - e1.getY();
 
-                String msg = String.format("e1(%f, %f), e2(%f, %f), distanceX:%f, distanceY:%f",
+                String msg = String.format("onFling:e1(%f, %f), e2(%f, %f), distanceX:%f, distanceY:%f",
                         e1.getX(), e1.getY(),
                         e2.getX(), e2.getY(),
                         distanceX, distanceY);
@@ -59,7 +60,7 @@ public class MainActivity extends ActionBarActivity {
                         onSwipeRight();
                     }
                     else {
-                        Log.d(TAG, "onSwipeRight");
+                        Log.d(TAG, "onSwipeLeft");
                         onSwipeLeft();
                     }
                     return true;
